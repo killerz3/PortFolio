@@ -14,9 +14,11 @@ export default function Sidebar() {
 
   
   return (
-      <aside className='bg-dark-primary cursor-vertical-text p-10 shadow-xl shadow-black z-10 text-white sticky h-screen top-0  '>
+      <aside className=' bg-dark-primary cursor-vertical-text p-10 shadow-xl shadow-black z-10 text-white sticky min-h-screen top-0  '>
           <div className='flex flex-col-reverse rotate-180 h-full justify-between items-center relative'>
-              <div className='vertical-upright rotate-180 font-extrabold tracking-tighter  text-xl text-stone-300 font-major '>KZ3</div>
+        <div className='vertical-upright rotate-180 font-extrabold tracking-tighter  text-xl text-stone-300 font-major '>
+          KZ3
+        </div>
         <div className='flex-grow vertical-rl flex flex-row-reverse justify-between py-10 '>  
               <NavLink href="/">Home</NavLink>
               <NavLink href="/Projects">Projects</NavLink>
