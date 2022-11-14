@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.vertical-rl{
+    writing-mode: vertical-lr;
+text-orientation: mixed;
+}
+.vertical-lr{
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+}
+.vertical-upright{
+    writing-mode: vertical-rl;
+text-orientation: upright;
+}
+
+.marquee{
+    width: 100%;
+    animation: marquee 20s linear infinite ;
+
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%) ;
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+.marquee-vert{
+    width: 100%;
+    animation: marquee-vert 20s linear infinite ;
+
+}
+
+
+@keyframes marquee-vert {
+    0% {
+        transform: translateY(100%) ;
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+    
+}
+
+.highlight-text{
+
+@apply font-major text-4xl text-Accent hover:bg-Accent hover:bg-opacity-75 hover:text-white  transition duration-700 ease-in
+
+}
