@@ -5,7 +5,7 @@ import Circle from "../(knick-knack)/cricle"
 export default function DoubleCirc() {
   
   return (
-      <m.div className=" relative right-0" >
+      <m.div className=" relative right-0 mx-5" >
         <Circle
           
           radius={35}

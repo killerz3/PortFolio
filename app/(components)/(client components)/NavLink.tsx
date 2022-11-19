@@ -12,6 +12,6 @@ export default function NavLink({ href, children }) {
   
   
   return (
-      <Link className={`${active?"text-Accent":""} font-SyneMono font-bold text-3xl transition duration-300 ease-in`} href={href}>{children}</Link>
+      <Link className={`${active?"text-Accent":""} font-SyneMono my-5 font-bold text-3xl transition duration-300 ease-in`} href={href}>{children}</Link>
   )
 }
