@@ -1,7 +1,7 @@
 "use client"
 import { AnimatePresence,motion as m } from "framer-motion"
 import { usePathname, useRouter } from "next/navigation"
-import { pageTransision } from "./(components)/(varients)/pageTransision"
+
 import Sidebar from "./(components)/sidebar"
 import "./global.css"
 
