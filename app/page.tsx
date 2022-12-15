@@ -4,7 +4,6 @@ import React from "react";
 import Banner from "./(components)/banner";
 import Circle from './(components)/(knick-knack)/cricle'
 import DoubleCirc from "./(components)/(knick-knack)/doubleCirc";
-import { pageTransision } from "./(components)/(varients)/pageTransision";
 const whileHover: TargetAndTransition = {
   fontStyle: "italic",
   transition: {

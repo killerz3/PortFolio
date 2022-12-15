@@ -9,11 +9,11 @@ import { TbBrandNextjs, TbBrandTailwind, } from "react-icons/tb"
 import {SiAdobe, SiAdobephotoshop, SiAdobepremierepro, SiBlender, SiExpress, SiMongodb, SiPremierleague, SiPrisma} from "react-icons/si"
 export default function Projects() {
   return (
-    <div className='w-screen h-screen pr-24 pl-5'>
+    <div className='w-screen overflow-y-scroll h-screen  pr-24 pl-5'>
       
-      <div className='flex flex-col h-full w-full'>
-        
-        <span className='my-10 font-major text-5xl font-extrabold'>My Projects</span>
+      
+        <div className='h-full pt-10'>
+        <span className='my-10 font-major text-3xl md:text-5xl font-extrabold'>My Projects</span>
 
         <div className='project-card'>
           <div className="flex flex-col w-1/2">
@@ -28,7 +28,7 @@ export default function Projects() {
           </div>
         
         </div>
-        <div className='project-card justify-end'>
+        <div className='project-card md:justify-end'>
           <div className="flex flex-col w-1/2">
             <Link href={"/"} className='font-major text-3xl hover:underline'>WebSites</Link>
             <span className="ml-3 mt-2 text-xl">Tech-Stack:</span>
@@ -60,6 +60,6 @@ export default function Projects() {
         
       </div>
       
-    </div>
+   </div>
   )
 }
