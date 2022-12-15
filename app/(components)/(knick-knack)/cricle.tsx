@@ -7,7 +7,7 @@ export default function Cricle({ className, strokeThicc, pathLengthTo, pathLengt
   pathLengthTo:number,
   pathLengthFrom:number,
   radius:number,
-  animate: boolean,
+  animate?: boolean,
   duration: number,
   svgClassName?: string
   height?: number,

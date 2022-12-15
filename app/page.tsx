@@ -23,10 +23,6 @@ export default function Page() {
   return (
     <m.main
     
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      variants={pageTransision}
       
       className="overflow-y-scroll min-w-screen overflow-x-hidden relative">
       
@@ -54,11 +50,16 @@ export default function Page() {
         a Computer science student with a passion to <m.span whileHover={whileHover} className="highlight-text">creAte</m.span> stuff
         like Apps Websites & 3d renders
       </m.div>
-      <m.main className="text-5xl md:text-7xl mr-4 w-full flex-col mt-8 font-Poppins font-semibold select-none text-neutral-200 mb-10 flex justify-center items-center ">
-        Hello i'm a "full" full stack developer,
+      <m.div className="text-5xl md:text-7xl mr-4 ml-5 w-full flex-col mt-8 font-Poppins font-thin select-none text-neutral-200 mb-32 flex justify-center items-center ">
+        Hello i'm a 'full' full stack developer,
         currently studying Computer Science with major in IOT at
         Netaji Subhash University of Technology
-      </m.main>
+      </m.div>
+      <m.div className="text-5xl md:text-7xl mr-16 ml-5 w-full flex-col mt-8 font-Poppins font-extralight select-none text-neutral-200 mb-10 flex justify-center items-center ">
+        I like to try and learn a bunch of stuff 
+        currently im learning Next13
+        while growing my skills in DSA. 
+      </m.div>
     </m.main>
   );
 }
