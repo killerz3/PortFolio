@@ -25,8 +25,14 @@
     "@types/node": "18.11.6",
     "@types/react": "^18",
     "bun-framework-next": "^12.2",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.4",
     "react-refresh": "0.10.0",
     "typescript": "latest"
   },
-  "module": "index.js"
+  "module": "index.js",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with Bun.",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
